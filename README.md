@@ -1,19 +1,25 @@
 # 前端工具集
 ## 目录
-[TOC]
+- [前端工具](#tools)
+- [有趣的库](#library)
+- [大牛博客](#blog)
+- [chrome插件](#chrome)
+- [常用的css](#js)
+- [常用的js](#css)
+
 ## 正文
-### 前端工具
+<h3 id="tools">前端工具</h3>
 - [bootCDN](http://www.bootcdn.cn/) - 各种开源库的cdn地址，加快开源库访问速度
 
 - [Awesomes.cn](https://www.awesomes.cn/) - 前端各种资源库，想用的这里说不定都有
 
 - [熊猫图片压缩](https://tinypng.com/) - 一个压缩图片的网站，很牛，一次可以压缩70%左右，还不失真，不过不购买的话压缩有限制，一次最多十张，每张有大小限制（忘记多大了，好像是5M，好像是10M）
 
-### 前端有趣的库
+<h3 id="library">有趣的库</h3>
 
 - [animate.css](https://daneden.github.io/animate.css/) - css动画，简单一点的动画都有
 
-### 大牛博客
+<h3 id="blog">大牛博客</h3>
 
 - [阮一峰](http://www.ruanyifeng.com/blog/) - ES6教程写的真的很棒
 
@@ -27,7 +33,7 @@
 
 - [廖雪峰](https://www.liaoxuefeng.com/) - 有关于python，JS，git的教程
 
-### chrome插件
+<h3 id="chrome">chrome插件</h3>
 
 - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=zh-CN)：屏蔽广告专用，可以设置白名单
 
@@ -56,7 +62,7 @@
 - [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=zh-CN)：模拟请求，很强大，还可以敲代码
 
 
-### 技术官网
+<h3 id="website">技术官网</h3>
 
 - [webpack](https://doc.webpack-china.org/)
 
@@ -64,11 +70,11 @@
 
 - [印记中文](https://docschina.org/) - 各种中文文档，与官方文档同步
 
-### 常用的js
+<h3 id="js">常用的js</h3>
 
 - utils.js（常用js方法总结）
 
-### 常用的css
+<h3 id="css">常用的css</h3>
 
 - README.md（常用简单css总结）
 - border.css（0.5像素边框css）
