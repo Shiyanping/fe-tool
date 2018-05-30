@@ -35,6 +35,19 @@ var utils = {
     return format;
   },
   /**
+   * 去除字符串中的空格
+   * @param {string} str - 需要去除空格的字符串
+   * @param {string} is_global - 是否全部去除 传g去除所有，不传去除前后
+   */
+  trim: function(str, is_global) {
+    var result;
+    result = str.replace(/(^\s+)|(\s+$)/g, '');
+    if (is_global && is_global.toLowerCase() === 'g') {
+      result = str.replace(/\s/g, '');
+    }
+    return result;
+  },
+  /**
    * 获取url参数
    */
   getUrlParam: function(url, param) {
@@ -148,5 +161,24 @@ var utils = {
   //清除cookie
   clearCookie: function(name) {
     this.setCookie(name, '', -1);
+  },
+  /**
+   * 封装 jquery 的 ajax
+   * 使用前提是引入 jquery 或者 zepto
+   */
+  request: function(url, data, type, callback, errorCallBack) {
+    $.ajax({
+      url: url,
+      data: data,
+      type: type,
+      dataType: 'json',
+      contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
+      success: function(data) {
+        callback && callback(data);
+      },
+      error: function(error) {
+        errorCallBack && errorCallBack(error);
+      }
+    });
   }
 };

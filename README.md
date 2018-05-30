@@ -1,4 +1,6 @@
-# 前端工具集
+
+# 前端工具库
+
 ## 目录
 - [前端开发工具](#tools)
 - [前端库/框架](#library-frame)
@@ -6,12 +8,15 @@
     - [框架](#frame)
     - [文档](#books)
     - [语言](#language)
+- [学习网站](#study)
 - [大牛博客](#blog)
 - [chrome插件](#chrome)
 - [mac工具](#mac)
 - [VSCode插件](#vscode)
 - [常用的css](#js)
 - [常用的js](#css)
+
+<!-- more -->
 
 ## 正文
 <h3 id="tools">前端开发工具</h3>
@@ -36,6 +41,10 @@
 
 - [amazeui](http://amazeui.org/) - 国人开发的一款ui库，不依赖vue，react，配合jquery使用不错，但是感觉有些用着不习惯，可能我技术不行，😀
 
+- [Cleave.js](http://nosir.github.io/cleave.js/) - 用于格式化文本框输入内容的插件
+
+- [clipboard.js](https://github.com/zenorocha/clipboard.js) - 复制内容到剪切板的插件
+
 <h4 id="frame">框架</h4>
 
 - [vue](https://cn.vuejs.org/)
@@ -59,9 +68,23 @@
 
 - [前端规范](http://front-end-standards.com/) - 由[MIT License](https://en.wikipedia.org/wiki/MIT_License)开源维护的
 
+- [web前端导航](http://www.alloyteam.com/nav/) - 由腾讯维护的web前端资料库，里面包含各种前端的知识
+
+- [前端书籍资料](http://www.36zhen.com/t?id=3448) - 各种前端书籍的电子书免费下载
+
+- [Markdown教程](https://kennylee26.gitbooks.io/markdown/content/index.html) - Markdown语法
+
 <h4 id="language">语言</h4>
 
 - [node](http://nodejs.cn/)
+
+<h3 id="study">学习网站</h3>
+
+- [百度前端技术学院](http://ife.baidu.com/)
+
+- [慕课网](https://www.imooc.com/)
+
+- [腾讯课堂](https://ke.qq.com/)
 
 <h3 id="blog">大牛博客</h3>
 
@@ -69,13 +92,17 @@
 
 - [技术胖](http://jspang.com/) - 前端各种免费视频教学
 
-- [翁天信](https://www.dandyweng.com/) - 一个辍学在家自学的天才少年，看他博客是一种享受，各种旅行漂亮的照片
+- [翁天信官网](https://www.dandyweng.com/) - 一个辍学在家自学的天才少年，各种旅行漂亮的照片，还有他的个人介绍
+
+- [翁天信博客](https://blog.dandyweng.com/) - 他的官网中可以找到他博客的地址，但是有点不显眼，所以就列出来了
 
 - [surmon](https://surmon.me/) - 不知道怎么称呼，但是是一个很牛B的人，点开博客就知道了
 
 - [张鑫旭](http://www.zhangxinxu.com/) - 这个应该很多人都知道，就不介绍了
 
 - [廖雪峰](https://www.liaoxuefeng.com/) - 有关于python，JS，git的教程
+
+- [酷壳 - CoolShell](https://coolshell.cn/) - 享受编程和技术所带来的快乐，涉及范围：Android,Bash,book,C++,Code Review,Coding,CSS,Database,Debug,ebook,Erlang,Game,Go,Google,HTML,IE,Java,Javascript,jQuery,Linus。。。
 
 <h3 id="chrome">chrome插件</h3>
 
@@ -141,12 +168,12 @@
 
 <h3 id="js">常用的js</h3>
 
-- utils.js（常用js方法总结）
+- [utils.js](https://github.com/Shiyanping/fe-tool/blob/master/js/utils.js)（常用js方法总结）
 
 <h3 id="css">常用的css</h3>
 
-- README.md（常用简单css总结）
-- border.css（0.5像素边框css）
-- reset.css
+- [常用简单css总结](https://github.com/Shiyanping/fe-tool/tree/master/css)
+- [0.5像素边框css](https://github.com/Shiyanping/fe-tool/tree/master/css/border.css)
+- [reset.css](https://github.com/Shiyanping/fe-tool/blob/master/css/reset.css)
 
 **持续更新中**
