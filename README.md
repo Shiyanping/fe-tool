@@ -1,4 +1,3 @@
-
 # 前端工具库
 
 ## 目录
@@ -9,7 +8,9 @@
     - [文档](#books)
     - [语言](#language)
 - [学习网站](#study)
-- [大牛博客](#blog)
+- [博客](#blog)
+    - [大牛博客](#noMyBlog)
+    - [自己搭建博客](#myBlog)
 - [chrome插件](#chrome)
 - [mac工具](#mac)
 - [VSCode插件](#vscode)
@@ -19,7 +20,7 @@
 ## 正文
 <h3 id="tools">前端开发工具</h3>
 
-- [bootCDN](http://www.bootcdn.cn/) - 各种开源库的cdn地址，加快开源库访问速度  
+- [bootCDN](http://www.bootcdn.cn/) - 各种开源库的 cdn 地址，加快开源库访问速度  
 
 - [Awesomes.cn](https://www.awesomes.cn/) - 前端各种资源库，想用的这里说不定都有
 
@@ -29,6 +30,28 @@
 
 - [jquery插件库](http://www.jq22.com/) - 各种jquery的插件，有的需要花钱，有的不用，花钱也很便宜哦
 
+- [时间戳格式化](http://tool.chinaz.com/Tools/unixtime.aspx)
+
+- [站长工具](https://tool.lu/) - 里面包含了很多有用的工具，html、css、js 压缩，解压缩。html转markdown，IP地址查询
+
+- [JSON代码高亮](http://www.kjson.com/jsonformat/)
+
+- [EnjoyCss](http://enjoycss.com/ref/chrome_extension) - 可以自定义一些css样式，然后直接获取代码
+
+- [codepen](https://codepen.io/pen/) - 在网页上快速写代码，可以免去打开编辑器去敲代码，可以解决电脑上没有IDE，但是你想写代码的情况（那还写个毛线，😀）
+
+- [Unicode编码转换](http://tool.chinaz.com/Tools/Unicode.aspx)
+
+- [RGB颜色和十六位颜色转化工具](http://www.kqiqi.com/tools/RGB216/)
+
+- [石墨文档](https://shimo.im/) - 可以多人协作的文档及表格
+
+- [缩短链接](http://sina.lt/) - 如果你觉得自己的链接太长，可以使用新浪的缩短链接服务，将url进行缩短
+
+- [在线图片格式转换](http://pic.55.la/)
+
+- [iconfont](http://www.iconfont.cn/) - 阿里维护的 iconfont 里面有很多漂亮的 icon
+
 <h3 id="library-frame">前端库/框架</h3>
 
 <h4 id="library">库</h4>
@@ -37,11 +60,21 @@
 
 - [animate.css](https://daneden.github.io/animate.css/) - css动画，简单一点的动画都有
 
+- [velocity.js](http://www.mrfront.com/docs/velocity.js/index.html) - 基于 js 的动画库，可以和 jquery 完美结合
+
 - [amazeui](http://amazeui.org/) - 国人开发的一款ui库，不依赖vue，react，配合jquery使用不错，但是感觉有些用着不习惯，可能我技术不行，😀
 
 - [Cleave.js](http://nosir.github.io/cleave.js/) - 用于格式化文本框输入内容的插件
 
 - [clipboard.js](https://github.com/zenorocha/clipboard.js) - 复制内容到剪切板的插件
+
+- [hcharts](http://www.hcharts.cn/) - 兼容 IE6+、完美支持移动端、图表类型丰富、方便快捷的 HTML5 交互性图表库
+
+- [echarts](http://echarts.baidu.com/) - 百度维护的图标库
+
+- [select2](https://select2.org/) - 下拉框第三方库，随着越来越多的ui库集成下拉菜单之后，这个基本很少用了
+
+- [datatables](http://datatables.club/blog/) - 表格库
 
 <h4 id="frame">框架</h4>
 
@@ -56,8 +89,10 @@
      - [antd](https://ant.design/docs/react/introduce-cn) - 阿里 react 框架，星星很多哦
     - [antd-pro](https://pro.ant.design/index-cn) - antd 阿里官方解决方案，拉了代码就可以用，非常方便
     - [react-admin](https://github.com/yezihaohao/react-admin) - 网友 react+antd 写的系统模板，很多人在没出 antd-pro 时都用这个
-   
 
+- 小程序框架
+     - [mpvue](http://mpvue.com/) - 轻松使用vue敲代码，编译成小程序
+   
 <h4 id="books">文档</h4>
 
 - [印记中文](https://docschina.org/) - 各种中文文档，与官方文档同步
@@ -72,6 +107,8 @@
 
 - [Markdown教程](https://kennylee26.gitbooks.io/markdown/content/index.html) - Markdown语法
 
+- [JSDoc](http://www.css88.com/doc/jsdoc/) - JS注释中文文档，注释写得好有助于其他人阅读使用
+
 <h4 id="language">语言</h4>
 
 - [node](http://nodejs.cn/)
@@ -84,7 +121,19 @@
 
 - [腾讯课堂](https://ke.qq.com/)
 
-<h3 id="blog">大牛博客</h3>
+- [github](https://github.com/) - 最大的同性交友网站，被微软收购之后用户数有所减少
+
+- [FreeCodeCamp](https://freecodecamp.cn/challenges/build-a-tribute-page) - 适合刚学前端的同学学习
+
+- [codewars](https://www.codewars.com/) - 学习语言的好网站，代码战争，听着名字就很叼
+
+- [优达学城](https://cn.udacity.com/?utm_source=ruanyf&utm_medium=referral&utm_campaign=ruanyf1st)
+
+- [前端开发博客](http://caibaojian.com/) - 汇集了很多前端有用的东西
+
+<h3 id="blog">博客</h3>
+
+<h4 id="noMyBlog">大牛博客</h4>
 
 - [阮一峰](http://www.ruanyifeng.com/blog/) - ES6教程写的真的很棒
 
@@ -100,7 +149,15 @@
 
 - [廖雪峰](https://www.liaoxuefeng.com/) - 有关于python，JS，git的教程
 
-- [酷壳 - CoolShell](https://coolshell.cn/) - 享受编程和技术所带来的快乐，涉及范围：Android,Bash,book,C++,Code Review,Coding,CSS,Database,Debug,ebook,Erlang,Game,Go,Google,HTML,IE,Java,Javascript,jQuery,Linus。。。
+- [酷壳 - CoolShell](https://coolshell.cn/) - 享受编程和技术所带来的快乐，涉及范围：Android , Bash, book, C++, CodeReview, Coding, CSS, Database, Debug, ebook, Game, Go, Google, HTML, IE, Java, Javascript, jQuery, Linus。。。
+
+<h4 id="myBlog">自己搭建博客</h4>
+
+自己可以使用 hexo 和 githubPage 搭建一个简单的博客，具体步骤请移步这里 [使用hexo搭建个人博客](https://blog.csdn.net/qq_33699981/article/details/72716951)，下面主要列举一下搭建博客会用到的工具
+
+- [leancloud](https://leancloud.cn/dashboard/applist.html#/apps) - 使用 hexo 搭建的博客，使用 leancloud 可以统计文章的访问量
+
+- [来必力](https://livere.com/login_form) - 为自己的博客添加评论功能
 
 <h3 id="chrome">chrome插件</h3>
 
@@ -133,6 +190,7 @@
 <h3 id="mac">mac工具</h3>
 
 - [iTerm2](https://www.iterm2.com/) - 很强大的命令行
+- [Homebrew](https://brew.sh/index_zh-cn.html) - 方便mac进行安装软件
 
 <h3 id="vscode">VSCode插件</h3>
 
