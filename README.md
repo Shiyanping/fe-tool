@@ -56,6 +56,12 @@
 
 - [自动添加 css 前缀](https://autoprefixer.github.io/) - 如果没有使用 gulp 或者 webpack 等打包工具的话，为了 css 兼容，可以使用这个，css，less，scss 都可以用
 
+- [压缩 js，css，html](https://www.baidufe.com/fehelper/codecompress.html)
+
+- [base64 加密解密](http://tool.chinaz.com/tools/base64.aspx)
+
+- [css3 中的阴影生成工具](http://www.css88.com/tool/css3Preview/Box-Shadow.html) - 可以让 UI 根据这个去写阴影，后续直接 copy 代码出来使用即可
+
 <h3 id="library-frame">前端库/框架</h3>
 
 <h4 id="library">库</h4>
@@ -96,6 +102,7 @@
 
 - 小程序框架
   - [mpvue](http://mpvue.com/) - 轻松使用 vue 敲代码，编译成小程序
+  - [小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/index.html?t=2018723)
   - [wxParse](https://github.com/icindy/wxParse) - 在小程序中解析 html 和 markdown
   - [mpvue-wxParse](https://github.com/F-loat/mpvue-wxParse/) - 在使用 mpvue 搭建小程序中解析 html 和 markdown，star 比较少，大家用的如果好的话可以给作者一个 star，鼓励一下作者
 
@@ -114,6 +121,8 @@
 - [Markdown 教程](https://kennylee26.gitbooks.io/markdown/content/index.html) - Markdown 语法
 
 - [JSDoc](http://www.css88.com/doc/jsdoc/) - JS 注释中文文档，注释写得好有助于其他人阅读使用
+
+-[前端面试图谱](https://yuchengkai.cn/docs/zh/frontend/) - 前端知识，有助于复习面试基础知识
 
 <h4 id="language">语言</h4>
 
