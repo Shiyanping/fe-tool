@@ -1,6 +1,6 @@
 ### 0.5 像素边框 css
 
-[点击打开源码下载](https://github.com/Shiyanping/fe-tool/tree/master/css/border.css)
+[点击打开源码下载](https://github.com/Shiyanping/fe-tool/blob/master/css/asset/border.css)
 
 ```css
 @charset "utf-8";

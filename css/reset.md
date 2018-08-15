@@ -1,6 +1,6 @@
 ### 初始浏览器样式
 
-[点击打开下载源码](https://github.com/Shiyanping/fe-tool/blob/master/css/reset.css)
+[点击打开下载源码](https://github.com/Shiyanping/fe-tool/blob/master/css/asset/reset.css)
 
 ```css
 @charset "utf-8";
