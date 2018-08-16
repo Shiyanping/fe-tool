@@ -1,12 +1,14 @@
 module.exports = {
   base: '/fe-tool/',
   title: '开发工具集',
+  dest: 'dist',
   description: '将开发中经常用到的工具，第三方库，插件进行一个总结，以便后续开发使用。',
   head: [['link', { rel: 'icon', href: `/logo.jpg` }]],
   themeConfig: {
     repo: 'Shiyanping/fe-tool',
     editLinks: true,
-    docsDir: '',
+    docsDir: 'docs',
+    docsBranch: 'vuepress',
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdated: '上次更新',
     nav: [
