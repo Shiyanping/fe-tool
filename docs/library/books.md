@@ -15,3 +15,7 @@
 - [JSDoc](http://www.css88.com/doc/jsdoc/) - JS 注释中文文档，注释写得好有助于其他人阅读使用
 
 - [前端面试图谱](https://yuchengkai.cn/docs/zh/frontend/) - 前端知识，有助于复习面试基础知识
+
+- [vue 源码解析](https://ustbhuangyi.github.io/vue-analysis/) - 黄奕大神解析 vue 源码的文档
+
+- [VuePress](http://caibaojian.com/vuepress/) - 使用 vue 搭建静态网页，有利于写博客或者写一些文档
