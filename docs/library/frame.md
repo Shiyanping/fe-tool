@@ -29,3 +29,5 @@
 - [wxParse](https://github.com/icindy/wxParse) - 在小程序中解析 html 和 markdown
 
 - [mpvue-wxParse](https://github.com/F-loat/mpvue-wxParse/) - 在使用 mpvue 搭建小程序中解析 html 和 markdown，star 比较少，大家用的如果好的话可以给作者一个 star，鼓励一下作者
+
+- [wepy](https://tencent.github.io/wepy/)

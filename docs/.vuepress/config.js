@@ -30,12 +30,12 @@ module.exports = {
       {
         title: '前端库/框架/文档',
         collapsable: false,
-        children: ['library/library', 'library/frame', 'library/books', 'library/language']
+        children: ['library/library', 'library/frame', 'library/document', 'library/language']
       },
       {
-        title: '学习网站',
+        title: '学习资源',
         collapsable: false,
-        children: ['study/']
+        children: ['study/website', 'study/books']
       },
       {
         title: '博客',

@@ -19,3 +19,9 @@
 - [vue 源码解析](https://ustbhuangyi.github.io/vue-analysis/) - 黄奕大神解析 vue 源码的文档
 
 - [VuePress](http://caibaojian.com/vuepress/) - 使用 vue 搭建静态网页，有利于写博客或者写一些文档
+
+- [ES6入门](http://es6.ruanyifeng.com/#docs/let) - 阮大神出版的入门ES6书籍
+
+- [百度SDK](http://lbsyun.baidu.com/)
+
+- [拉勾招聘小程序](https://shimo.im/docs/cCPTZvpjDAkwJ3pw) - 只要有拉勾的企业账号，拉勾就可以免费帮做招聘小程序
