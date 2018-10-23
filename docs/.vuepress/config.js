@@ -9,7 +9,7 @@ module.exports = {
     editLinks: true,
     docsDir: 'docs',
     docsBranch: 'vuepress',
-    editLinkText: '在 GitHub 上编辑此页',
+    editLinkText: '欢迎大家来补充',
     lastUpdated: '上次更新',
     nav: [
       {
@@ -23,19 +23,19 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: '前端开发工具',
+        title: '开发工具',
         collapsable: false,
-        children: ['tools/']
+        children: ['tools/developTools', 'tools/chrome', 'tools/vscode', 'tools/mac']
       },
       {
-        title: '前端库/框架/文档',
+        title: '前端库/框架',
         collapsable: false,
-        children: ['library/library', 'library/frame', 'library/document', 'library/language']
+        children: ['library/library', 'library/frame']
       },
       {
         title: '学习资源',
         collapsable: false,
-        children: ['study/website', 'study/books']
+        children: ['study/document', 'study/website', 'study/books', 'study/team']
       },
       {
         title: '博客',
@@ -43,29 +43,18 @@ module.exports = {
         children: ['blog/noMyBlog', 'blog/myBlog']
       },
       {
-        title: 'chrome 插件',
+        title: '其他',
         collapsable: false,
-        children: ['chrome/']
-      },
-      {
-        title: 'mac 工具',
-        collapsable: false,
-        children: ['mac/']
-      },
-      {
-        title: 'VSCode 插件',
-        collapsable: false,
-        children: ['vscode/']
-      },
-      {
-        title: 'CSS总结',
-        collapsable: false,
-        children: ['css/border','css/reset', 'css/oftenUse']
-      },
-      {
-        title: 'JS总结',
-        collapsable: false,
-        children: ['js/']
+        children: [
+          'other/language',
+          'other/js/',
+          'other/css/'
+          // {
+          //   title: 'CSS总结',
+          //   collapsable: false,
+          //   children: ['other/css/border', 'other/css/reset', 'other/css/oftenUse']
+          // }
+        ]
       }
       // {
       //   title: 'JS总结',

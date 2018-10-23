@@ -14,4 +14,6 @@
 
 - [廖雪峰](https://www.liaoxuefeng.com/) - 有关于 python，JS，git 的教程
 
+- [尤雨溪](https://github.com/yyx990803) - Vue.js 作者
+
 - [酷壳 - CoolShell](https://coolshell.cn/) - 享受编程和技术所带来的快乐，涉及范围：Android , Bash, book, C++, CodeReview, Coding, CSS, Database, Debug, ebook, Game, Go, Google, HTML, IE, Java, Javascript, jQuery, Linus。。。

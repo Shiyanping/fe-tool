@@ -1,4 +1,8 @@
-# 文档
+---
+pageClass: study-document
+---
+
+# 学习文档
 
 - [印记中文](https://docschina.org/) - 各种中文文档，与官方文档同步
 
@@ -20,8 +24,8 @@
 
 - [VuePress](http://caibaojian.com/vuepress/) - 使用 vue 搭建静态网页，有利于写博客或者写一些文档
 
-- [ES6入门](http://es6.ruanyifeng.com/#docs/let) - 阮大神出版的入门ES6书籍
+- [ES6 入门](http://es6.ruanyifeng.com/#docs/let) - 阮大神出版的入门 ES6 书籍
 
-- [百度SDK](http://lbsyun.baidu.com/)
+- [百度 SDK](http://lbsyun.baidu.com/)
 
 - [拉勾招聘小程序](https://shimo.im/docs/cCPTZvpjDAkwJ3pw) - 只要有拉勾的企业账号，拉勾就可以免费帮做招聘小程序

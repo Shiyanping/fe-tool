@@ -1,4 +1,4 @@
-# chrome插件
+# chrome 插件
 
 - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=zh-CN)：屏蔽广告专用，可以设置白名单
 

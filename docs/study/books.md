@@ -1,16 +1,14 @@
 # 前端书籍
 
-
-
 1. [JavaScript 设计模式与开发实践](https://item.jd.com/11686375.html) - 全面涵盖 JavaScript 设计模式，设计原则，对深入了解设计模式有帮助
 
 2. [Vue.js 实战](https://item.jd.com/12215519.html) - 示例比较多，是 iView 作者写的
 
 3. [你不知道的 JavaScript（上卷）](https://item.jd.com/11676671.html) - 内容写的很精髓，内容和书名很搭配
 
-4. [你不知道的 JavaScript 中卷](https://item.jd.com/12030814.html#crumb-wrap)
+4. [你不知道的 JavaScript（中卷）](https://item.jd.com/12030814.html#crumb-wrap)
 
-5. [你不知道的 JavaScript 下卷](https://item.jd.com/12291874.html)
+5. [你不知道的 JavaScript（下卷）](https://item.jd.com/12291874.html)
 
 6. [CSS 揭秘](https://item.jd.com/11911279.html) - 讲 CSS 使用技巧
 
@@ -34,6 +32,6 @@
 
 16. [用户体验要素：以用户为中心的产品设计](https://item.jd.com/10690653.html)
 
-17. [深入React技术栈](https://item.jd.com/12068636.html)
+17. [深入 React 技术栈](https://item.jd.com/12068636.html)
 
 18. [设计模式：可复用面向对象软件的基础](https://item.jd.com/10057319.html)

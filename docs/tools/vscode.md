@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # VSCode 插件
 
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) - 自动闭合 HTML 标签
