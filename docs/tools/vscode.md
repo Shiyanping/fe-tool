@@ -53,3 +53,7 @@
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - 代码美化，快捷键（shift+option+F）
 
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - 目前比较好的 Vue 语法高亮
+
+- [koroFileHeader](https://marketplace.visualstudio.com/items?itemName=OBKoro1.korofileheader) - 能够很好的添加文件头部注释及函数注释，方便阅读
+
+- [Manta's Stylus Supremacy](https://marketplace.visualstudio.com/items?itemName=thisismanta.stylus-supremacy) - stylus 格式化插件，能好的帮助书写 stylus，安装之后，需要在设置中添加格式化的方式

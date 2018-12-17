@@ -6,9 +6,9 @@
 
 3. [你不知道的 JavaScript（上卷）](https://item.jd.com/11676671.html) - 内容写的很精髓，内容和书名很搭配
 
-4. [你不知道的 JavaScript（中卷）](https://item.jd.com/12030814.html#crumb-wrap)
+4. [你不知道的 JavaScript（中卷）](https://item.jd.com/12030814.html#crumb-wrap) - 精髓二连击
 
-5. [你不知道的 JavaScript（下卷）](https://item.jd.com/12291874.html)
+5. [你不知道的 JavaScript（下卷）](https://item.jd.com/12291874.html) - 精髓三连击
 
 6. [CSS 揭秘](https://item.jd.com/11911279.html) - 讲 CSS 使用技巧
 

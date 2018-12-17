@@ -1,6 +1,6 @@
 # 框架
 
-## vue 
+## vue
 
 [官方文档](https://cn.vuejs.org/)
 
@@ -10,7 +10,7 @@
 
 - [cube](https://didi.github.io/cube-ui/#/zh-CN) - 滴滴出品的移动端库，感觉比 mint 完善一点
 
-## react 
+## react
 
 [官方文档（中文版）](https://doc.react-china.org/)
 
