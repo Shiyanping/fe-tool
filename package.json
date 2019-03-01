@@ -4,5 +4,8 @@
     "build": "vuepress build docs",
     "deploy": "gh-pages -d dist",
     "deploy:build": "npm run build && npm run deploy"
+  },
+  "dependencies": {
+    "vuepress": "^0.14.9"
   }
 }
