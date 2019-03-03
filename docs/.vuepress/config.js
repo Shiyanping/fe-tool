@@ -1,7 +1,7 @@
 module.exports = {
   base: '/',
   title: '开发工具集',
-  dest: 'dist',
+  dest: './dist',
   description: '将开发中经常用到的工具，第三方库，插件进行一个总结，以便后续开发使用。',
   head: [['link', { rel: 'icon', href: `/logo.jpg` }]],
   themeConfig: {
