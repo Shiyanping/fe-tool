@@ -1,59 +1,127 @@
 # VSCode 插件
 
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) - 自动闭合 HTML 标签
+#### [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-- [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport) - 自动 import 插件
+代码美化，快捷键（shift+option+F）,可以格式化很多格式的文件，团队的话建议在项目的目录下使用 `.prettierrc` 进行 prettier 的配置，`.prettierrc` 的优先级比编辑器的设置更高，可以让团队保持统一的代码风格，最好再配合 eslint 使用。
 
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - 修改 HTML 标签时，自动修改匹配的标签
+#### [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 
-- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - 给括号前后进行着色
+npm 插件可以检查 package.json 中所定义的 npm 模块与实际安装的 npm 模块是否一致。
 
-- [Can I Use](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-caniuse) - HTML5、CSS3、SVG 的浏览器兼容性检查
+- package.json 中定义了，但是实际未安装
+- package.json 中未定义，但是实际安装了
+- package.json 中定义的版本与实际安装的版本不一致
 
-- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - 检查代码中的拼写错误
+![](https://github.com/Microsoft/vscode-npm-scripts/raw/master/images/validation.png)
 
-- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) - 运行选中代码段（支持大量语言，包括 Node）
+#### [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 
-- [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame) - 在状态栏显示当前行的 Git 信息
+npm Intellisense 插件会为 package.json 建立索引，这样当我 require 某个模块时，它可以自动补全。
 
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) - 查看 git log
+![](https://github.com/ChristianKohler/NpmIntellisense/raw/master/images/auto_complete.gif)
 
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - 显示文件最近的 commit 和作者，显示当前行 commit 信息
+#### [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - ESLint 插件
+查看 git log
 
-- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) - 配合 chrome 进行 debug
+![](https://raw.githubusercontent.com/DonJayamanne/gitHistoryVSCode/master/images/gitLogv2.gif)
 
-- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) - html，css 提示
+#### [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-- [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) - HTML 格式提示
+显示文件最近的 commit 和作者，显示当前行 commit 信息
 
-- [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) - 支持 ES6 语法代码段
+![](https://raw.githubusercontent.com/eamodio/vscode-gitlens/master/images/docs/gitlens-preview.gif)
 
-- [JavaScript Snippet Pack](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-javascript-snippet-pack) - 使用简单的两个字母就可以生成 JS 语句，需要记忆
+#### [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-- [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets) - jquery 快捷提示，安装了之后输入 jq 就会看到很多提醒
+ESLint 插件，这个不必多讲，配合自己的项目的 eslint 使用
 
-- [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus) - 支持 stylus
+#### [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - icon 样式，很好看
+目前比较好的 Vue 语法高亮
 
-- [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script) - 运行 npm 命令
+#### [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
-- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - 导入模块时，提示已安装模块名称
+可以为代码中的匹配的括号自动着色，以不同的颜色进行区分，这样我们可以轻易地辨别某个代码块的开始与结束。
 
-- [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) - 在浏览器运行当前页面，快捷键（option+B）
+![](https://github.com/CoenraadS/BracketPair/raw/master/images/example.png)
 
-- [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer) - 控制台输出着色
+#### [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
-- [Panda Theme](https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda) - 一个主题，比较护眼，熊猫主题
+插件的功能非常简单，它可以自动补全 HTML/XML 的关闭标签
 
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - 路径自动补充
+![](https://github.com/formulahendry/vscode-auto-close-tag/raw/master/images/usage.gif)
 
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - 代码美化，快捷键（shift+option+F）
+#### [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
 
-- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - 目前比较好的 Vue 语法高亮
+自动去查找、分析、然后提供代码补全。对于 TypeScript 和 TSX，可以适用
 
-- [koroFileHeader](https://marketplace.visualstudio.com/items?itemName=OBKoro1.korofileheader) - 能够很好的添加文件头部注释及函数注释，方便阅读
+![](https://image.fundebug.com/2019-01-10-autoimport.gif)
 
-- [Manta's Stylus Supremacy](https://marketplace.visualstudio.com/items?itemName=thisismanta.stylus-supremacy) - stylus 格式化插件，能好的帮助书写 stylus，安装之后，需要在设置中添加格式化的方式
+#### [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+
+修改 HTML 标签时，自动修改匹配的标签
+
+![](https://github.com/formulahendry/vscode-auto-rename-tag/raw/master/images/usage.gif)
+
+#### [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+帮助你检查代码中的拼写错误
+
+![](https://raw.githubusercontent.com/streetsidesoftware/vscode-spell-checker/master/packages/client/images/example.gif)
+
+#### [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+
+可以在编辑器中选中部分代码段，然后运行（支持大量语言，包括 Node），但是极少数情况运行出来的结果会和浏览器不同，如果你在编辑器中使用这个功能之后，觉得答案和你想的不同，要在浏览器中再测试一下。
+
+#### [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+
+配合 chrome 进行 debug
+
+![](https://github.com/Microsoft/vscode-chrome-debug/blob/master/images/demo.gif?raw=true)
+
+#### [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
+
+jquery 快捷提示，安装了之后输入 jq 就会看到很多提醒，对目前还在用 jq 的小伙伴有帮助
+
+![](https://raw.githubusercontent.com/DonJayamanne/jquerysnippets/master/images/snippets.png)
+
+#### [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus)
+
+支持 stylus
+
+#### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+icon 样式，很好看
+
+#### [vscode-element-helper](https://marketplace.visualstudio.com/items?itemName=ElemeFE.vscode-element-helper)
+
+可以快速提示 element-ui
+
+![](https://user-images.githubusercontent.com/1659577/27990775-4b7db888-6494-11e7-9b27-3ec7fa5f99b7.gif)
+
+#### [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
+
+在浏览器运行当前页面，快捷键（option+B）
+
+#### [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+
+控制台输出着色
+
+![](https://raw.githubusercontent.com/IBM-Bluemix/vscode-log-output-colorizer/master/github-assets/screenshot-1.jpg)
+
+#### [Panda Theme](https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda)
+
+一个主题，比较护眼，熊猫主题
+
+#### [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+路径自动补充
+
+![](http://i.giphy.com/iaHeUiDeTUZuo.gif)
+
+#### [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
+
+可以在编辑器中查看 svg 图片
+
+![](https://github.com/cssho/vscode-svgviewer/raw/master/img/from_context.gif)

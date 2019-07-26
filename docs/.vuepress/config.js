@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/fe-tool',
+  base: '/fe-tool/',
   title: '开发工具集',
   dest: './dist',
   description: '将开发中经常用到的工具，第三方库，插件进行一个总结，以便后续开发使用。',
@@ -23,9 +23,9 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: '开发工具',
+        title: '工欲善其事必先利其器',
         collapsable: false,
-        children: ['tools/developTools', 'tools/chrome', 'tools/vscode', 'tools/mac']
+        children: ['tools/developTools', 'tools/chrome', 'tools/vscode']
       },
       {
         title: '前端库/框架',
@@ -41,26 +41,7 @@ module.exports = {
         title: '博客',
         collapsable: false,
         children: ['blog/noMyBlog', 'blog/myBlog']
-      },
-      {
-        title: '其他',
-        collapsable: false,
-        children: [
-          'other/language',
-          'other/js/',
-          'other/css/'
-          // {
-          //   title: 'CSS总结',
-          //   collapsable: false,
-          //   children: ['other/css/border', 'other/css/reset', 'other/css/oftenUse']
-          // }
-        ]
       }
-      // {
-      //   title: 'JS总结',
-      //   collapsable: false,
-      //   children: [['vuex/', 'Introduction'], 'vuex/init', 'vuex/api', 'vuex/plugin']
-      // }
     ]
   }
 };
