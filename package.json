@@ -6,6 +6,6 @@
     "deploy:build": "npm run build && npm run deploy"
   },
   "dependencies": {
-    "vuepress": "^0.14.9"
+    "vuepress": "^1.9.7"
   }
 }
